@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+   
+</head>
+<body>
+   
+
+    <div id="calci">
+       
+       <input type="text" id="display">
+       
+       <div id="main">
+        <div id="fir">
+        <input type="button" value="C" onclick="Clear()">
+        <input type="button" value="%" onclick="Solve('%')">
+        <input type="button" value="<-" onclick="Back()">
+        <input type="button" value="/" onclick="Solve('/')">
+    </div>
+
+        <br>
+        <div id="sec">
+        <input type="button" value="7" onclick="Solve('7')">
+        <input type="button" value="8"onclick="Solve('8')">
+        <input type="button" value="9"onclick="Solve('9')">
+        <input type="button" value="X"onclick="Solve('*')">
+    </div>
+        <br>
+        <div id="thir">
+        <input type="button" value="4" onclick="Solve('4')">
+        <input type="button" value="5" onclick="Solve('5')">
+        <input type="button" value="6" onclick="Solve('6')">
+        <input type="button" value="-" onclick="Solve('-')">
+    </div>
+        <br>
+        <div id="four">
+        <input type="button" value="1" onclick="Solve('1')">
+        <input type="button" value="2" onclick="Solve('2')">
+        <input type="button" value="3" onclick="Solve('3')">
+        <input type="button" value="+" onclick="Solve('+')">
+    </div>
+        <br>
+        <div id="five">
+        <input type="button" value="00" onclick="Solve('7')">
+        <input type="button" value="0" onclick="Solve('0')">
+        <input type="button" value="." onclick="Solve('.')">
+        <input type="button" value="=" onclick="Result()">
+    </div>
+        
+        
+       </div>
+    </div>
+    <img src="https://i.pinimg.com/originals/39/3f/5e/393f5ed7ef5bd5d697ff83e0e36b1f79.jpg">
+    <script src="./cal.js"></script>
+    
+    
+</body>
+</html>

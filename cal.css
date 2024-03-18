@@ -1,0 +1,60 @@
+#calci{
+    height: 470px;
+    width: 300px;
+    background-color:cadetblue;
+    border-radius: 5%;
+    margin-top: 100px;
+    margin-left: 550px;
+    
+}
+#display{
+    margin-top: 30px;
+    height: 80px;
+    width: 250px;
+    margin-left: 21px;
+    font-size: larger;
+    
+}
+#main{
+    height: 350px;
+    width: 250px; 
+    margin-left: 21px;
+    margin-top: 30px;
+
+}
+#fir{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+input{
+    height: 45px;
+    width: 50px;
+}
+#sec{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#thir{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#four{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#five{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+input:hover{
+    border: 2px solid black;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/39/3f/5e/393f5ed7ef5bd5d697ff83e0e36b1f79.jpg");
+    
+} 
